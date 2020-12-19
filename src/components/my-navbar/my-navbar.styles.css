@@ -1,0 +1,35 @@
+.logo {
+  width: 15%;
+  transition: transform 0.3s;
+}
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-theme {
+  background-color: #101018f8;
+  font-size: 20px;
+}
+
+.animate-navbar {
+  box-shadow: 1px 1px 1px #222;
+  animation: moveDown 0.5s ease-in-out;
+}
+
+.my-btn{
+  transition: transform 0.3s;
+}
+
+.my-btn:hover{
+  text-decoration-color: aquamarine;
+  transform: scale(1.05);
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}

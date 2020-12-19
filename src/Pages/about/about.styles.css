@@ -1,0 +1,40 @@
+.about {
+  background-color: transparent;
+  font-size: 1.1em;
+  
+}
+
+.profile {
+  transition: transform 0.3s;
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: 10px;
+  border-width: 10px 20px 10px 5px;
+  border-radius: 10px;
+  border-color:aqua;
+}
+
+.profile:hover {
+  transform: scale(1.05);
+}
+
+.my-details {
+  background-color: rgba(255, 255, 255, 0.747); 
+}
+
+.my-btn{
+  transition: transform 0.3s;
+}
+
+.my-btn:hover {
+  transform: scale(1.05);
+}
+
+
+.my-name{
+  transition: transform 0.3s;
+}
+
+.my-name:hover {
+  transform: scale(1.05);
+}
