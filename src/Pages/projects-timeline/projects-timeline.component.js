@@ -35,7 +35,7 @@ const TimeLine = () => {
           <ImageEvent
             date="25/12/2020"
             className="text-center"
-            text="My Portfolio Website"
+            text=" Student Attendance Monitoring System in Laboratory"
             src={L_MONITORING}
             alt="My Portfolio Website"
           >
@@ -149,13 +149,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
               <UrlButton
-                  href="https://studentcollegeproject.herokuapp.com/"
+                  className="my-btn" href="https://studentcollegeproject.herokuapp.com/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/santheesh16?tab=repositories"
+                  className="my-btn" href="https://github.com/santheesh16?tab=repositories"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -238,13 +238,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
               <UrlButton
-                  href="https://santheesh16.github.io/Static_Websites/eventproject/"
+                  className="my-btn" href="https://my-portfolio-santheesh.herokuapp.com/#home"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/eventproject"
+                  className="my-btn" href="https://github.com/santheesh16/portfolio"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -327,13 +327,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://santheesh16.github.io/Static_Websites/eventproject/"
+                  className="my-btn" href="https://santheesh16.github.io/Static_Websites/eventproject/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/eventproject"
+                  className="my-btn" href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/eventproject"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -405,13 +405,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://santheesh16.github.io/Static_Websites/microsoft/"
+                  className="my-btn" href="https://santheesh16.github.io/Static_Websites/microsoft/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/microsoft"
+                  className="my-btn" href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/microsoft"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -482,13 +482,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://santheesh16.github.io/Static_Websites/calculator/"
+                  className="my-btn" href="https://santheesh16.github.io/Static_Websites/calculator/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/calculator"
+                  className="my-btn" href="https://github.com/santheesh16/santheesh16.github.io/tree/master/Static_Websites/calculator"
                   target="_blank"
                 >
                   SOURCE CODE

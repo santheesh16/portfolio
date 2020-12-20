@@ -12,6 +12,23 @@
   color: #fff;
 }
 
+.event{
+  transition: transform 0.3s;
+}
+
+.event:hover{
+  transform: scale(1.05);
+  
+}
+.my-btn{
+  transition: transform 0.3s;
+}
+
+.my-btn:hover{
+  transform: scale(1.05);
+  
+}
+
 .list-styles {
   list-style-type: circle;
 }
