@@ -2,28 +2,21 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
 import Tilt from "react-tilt";
 import "./experience.styles.css";
 
 const Experience = () => {
   return (
     <div id="experience">
-      <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
+      
       <Jumbotron className="jumbo-style">
         <Container>
           <Tilt options={{ max: 25 }}>
             <Card>
               <Card.Header
-                as="h5"
-                className="d-flex justify-content-center flex-wrap"
+                className=" justify-content-center dark"
               >
-                <Card.Img
-                  variant="top"
-                  className="img-resize"
-                  src={L_ACCENTURE}
-                  alt="Accenture logo"
-                />
+                <h1 className="text-center">EXPERIENCE</h1>
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
@@ -32,10 +25,8 @@ const Experience = () => {
                       Full Stack Developer
                     </strong>
                     <br />
-                    <strong>Technology:</strong> ReactJS, NodeJS, ExpressJS,
-                    MS-SQL
-                    <br />
-                    <strong>Duration:</strong> June 2020 - Present
+                    <strong>Technology:</strong> ReactJs, NodeJs, ExpressJs,
+                    My-SQL
                     <br />
                     <strong> Description </strong>
                     <ul className="text-left">

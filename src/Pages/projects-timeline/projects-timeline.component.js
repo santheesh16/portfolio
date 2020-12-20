@@ -16,7 +16,7 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
-import L_MYSQL from "../../assets/img/skills/mssql.svg";
+import L_MYSQL from "../../assets/img/skills/mysql.svg";
 import Image from "react-bootstrap/Image";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";

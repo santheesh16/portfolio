@@ -1,13 +1,11 @@
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP from "../../assets/img/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
+import L_MY_SQL from "../../assets/img/skills/mysql.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_Amazon from "../../assets/img/skills/aws-ec2.svg";
@@ -40,22 +38,10 @@ export const skills = {
       skillName: "JavaScript",
     },
     {
-      link: "https://getbootstrap.com/",
-      imgAltText: "Bootstrap",
-      imgSrc: L_BOOTSTRAP,
-      skillName: "Bootstrap",
-    },
-    {
       link: "https://reactjs.org/",
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
-    },
-    {
-      link: "https://reacttraining.com/react-router/",
-      imgAltText: "React Router",
-      imgSrc: L_REACT_ROUTER,
-      skillName: "React Router",
     },
     {
       link: "https://react-bootstrap.github.io/",
@@ -128,9 +114,9 @@ export const skills = {
   databases: [
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
-      imgAltText: "MS-SQL",
-      imgSrc: L_MSSQL,
-      skillName: "MS-SQL",
+      imgAltText: "MySQL",
+      imgSrc: L_MY_SQL,
+      skillName: "MySQL",
     },
     {
       link: "https://www.mongodb.com/",
