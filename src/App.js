@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import MyNavbar from "./components/my-navbar/my-navbar.component";
@@ -14,11 +14,20 @@ import Project from "./Pages/projects-timeline/projects-timeline.component";
 import { Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 
-function App() {
+const loader = document.querySelector(".preloader");
 
+const showLoader = () => loader.classList.remove("preloader");
+const addClass = () => loader.classList.add("loader-hide");
+
+
+function App() {
+  useEffect(() => {
+    showLoader();
+    addClass();
+  }, []);
   return (
     <div id="home">
-      <div className="home">
+      <div className="home" >
         <MyNavbar />
 
         <Fade duration={500}>
