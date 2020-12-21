@@ -15,8 +15,11 @@ const About = () => {
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
-              <Row className="justify-content-center mb-2 mr-2 ">
+              <Row className="justify-content-center about-img mb-2 mr-2 ">
+                <a href="https://github.com/santheesh16">
                 <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                </a>
+                
               </Row>
             </Col>
             <Col xs={12} md={6}>

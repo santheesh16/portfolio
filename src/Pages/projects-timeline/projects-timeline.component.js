@@ -114,7 +114,7 @@ const TimeLine = () => {
                                 src={L_NODE_JS}
                                 alt="NodeJS"
                                 rounded
-                                className="image-style1 m-1"
+                                className="image-style m-1"
                               ></Image>{" "}
                               NodeJS
                             </span>
@@ -136,7 +136,7 @@ const TimeLine = () => {
                                 src={L_MYSQL}
                                 alt="MySQL"
                                 rounded
-                                className="image-style1 m-1"
+                                className="image-style m-1"
                               ></Image>{" "}
                               MySQL
                             </span>

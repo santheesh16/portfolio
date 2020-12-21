@@ -5,23 +5,10 @@
 }
 
 .profile {
-  transition: transform 0.3s;
+  position: static;
   min-width: 300px;
   max-width: 300px;
-  border-radius: 10px;
-  border-width: 10px 20px 10px 5px;
-  border-radius: 10px;
-  border-color:aqua;
 }
-
-.profile:hover {
-  transform: scale(1.05);
-}
-
-.my-details {
-  background-color: rgba(255, 255, 255, 0.747); 
-}
-
 .my-btn{
   transition: transform 0.3s;
 }
@@ -37,4 +24,26 @@
 
 .my-name:hover {
   transform: scale(1.05);
+}
+
+
+.about-img::after {
+  transform: scale(1.05);
+	content: '';
+	position: absolute;
+	left: 130px;
+	top: 19px;
+	height: 95%;
+	width: 55%;
+  border: 7px solid rgb(104, 86, 167);
+  border-radius: 10px;
+	z-index: -1;
+}
+
+.about-img {
+  transition: transform 0.3s;
+}
+.about-img:hover {
+  transform: scale(1.05);
+  
 }
