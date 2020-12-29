@@ -13,7 +13,8 @@ import Project from "./Pages/projects-timeline/projects-timeline.component";
 // import LoadPage from "./Pages/LoadingPage"
 import { Container } from "react-bootstrap";
 import Fade from "react-reveal/Fade";
-
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 const loader = document.querySelector(".preloader");
 
 const showLoader = () => loader.classList.remove("preloader");
@@ -29,7 +30,10 @@ function App() {
     <div id="home">
       <div className="home" >
         <MyNavbar />
-
+        <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
         <Fade duration={500}>
           <hr />
           <Profile />
@@ -77,3 +81,5 @@ function App() {
 }
 
 export default App;
+
+//https://github.com/akjha96/ReactifolioBs4_Akj

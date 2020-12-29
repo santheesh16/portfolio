@@ -12,14 +12,7 @@
   color: #fff;
 }
 
-.event{
-  transition: transform 0.3s;
-}
 
-.event:hover{
-  transform: scale(1.05);
-  
-}
 .my-btn{
   transition: transform 0.3s;
 }
@@ -35,4 +28,37 @@
 
 .image-style1 {
   width: 3em;
+}
+
+/* Zoom In #1 */
+.img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+}
+.img:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }

@@ -52,13 +52,7 @@ const TitleMessage = () => (
               delay: 50,
             }}
           />
-          <div>
-            <a href="#contact">
-              <Button className="m-2" variant="outline-primary">
-                Let's talk
-              </Button>
-            </a>
-          </div>
+          
         </div>
       </div>
     </div>

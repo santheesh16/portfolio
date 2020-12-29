@@ -7,7 +7,7 @@ import L_MICROSOFT from "../../assets/img/projects/Microsoft_Screenshot.webp";
 import L_COMORACLE from "../../assets/img/projects/Comoracle_ScreenShot.webp";
 import L_PORTFOLIO from "../../assets/img/projects/Portfolio_ScreenShot.webp";
 import L_MONITORING from "../../assets/img/projects/Student_Monitoring.webp";
-
+import REFERED_LINK from "../../assets/icons/referedlogow.webp"
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -228,6 +228,23 @@ const TimeLine = () => {
                                 className="image-style m-1"
                               ></Image>{" "}
                               React-Bootstrap
+                            </span>
+                          </li>
+                        </ul>
+                        <strong>Referred links:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <a href="https://github.com/akjha96/ReactifolioBs4_Akj">
+                              <Image
+                                src={REFERED_LINK}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>
+                              ReactifolioBs4_Akj
+                              </a>
+                              
                             </span>
                           </li>
                         </ul>

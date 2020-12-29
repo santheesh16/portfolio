@@ -26,7 +26,6 @@ const ContactForm = () => {
               <img className="contact-img" src={LinkedIn} alt="gamil" width="30px" height="30px"/>
               </a>
             </div>
-            
             <div className="m-2">
               <a href="https://github.com/santheesh16" target="_blank" rel="noopener noreferrer">
               <img className="contact-img" src={GitHub} alt="gamil" width="30px" height="30px"/>
